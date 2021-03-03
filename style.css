@@ -1,0 +1,114 @@
+body {
+    background-color:#f7f2f2;
+    margin:0;
+    padding:0;
+}
+
+.menu {
+    display:flex;
+    justify-content:space-between;
+    background-color:#000000;
+    font-size:20px;
+    font-family:cursive;
+    font-weight:400;
+    color:#ffffff;
+    padding:10px;
+}
+
+ .menu a {
+    text-decoration:none;
+    padding:10px;
+    transition:0.5s;
+}
+
+.menu a:hover {
+    background-color:#800080;
+    color:#ffffff;
+    transition:0.5s;
+}
+
+a:link {
+    color:white;
+}
+
+a:visited {
+    color:white;
+}
+
+.grid img {
+    border:2px solid #000000;
+    border-radius:50px;
+    position:relative;
+}
+
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    margin:10px;
+    padding:25px;
+}
+
+.grid h3 {
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform: translate(-50%, -100%);
+    opacity:0;
+}
+
+.grid:hover h3 {
+    opacity:1;
+    transition:0.5s;
+}
+
+.origami:hover {
+    cursor:pointer;
+    background-color:rgba(0,0,0,0.1);
+}
+
+.origami:hover img {
+    opacity:0.33;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color:#ffffff;
+    width:310px;
+    font-family:fantasy;
+    margin:25px;
+    padding:30px;
+    transition: 0.5s;
+}
+
+.origami:hover {
+    transform:scale(1.2);
+    transition: 0.5s;
+}
+
+.body-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family:cursive;
+    text-align:center;
+    padding: 100px; 
+}
+
+.header {
+    position:fixed;
+    width:100%;
+    z-index:1;
+}
+
+.instruct-and-diagram-title {
+    text-align:center;
+    font-family:impact;
+    font-size:30px;
+}
+
+.header-title {
+    font-size:20px;
+}
